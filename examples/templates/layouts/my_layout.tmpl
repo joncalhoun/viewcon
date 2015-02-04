@@ -1,0 +1,18 @@
+{{define "my_layout"}}
+<html>
+  <head>
+      {{template "title"}}
+  </head>
+  <body>
+    <div style="width: 200px; height: 500px; background: #333; color: white; float: right;">
+      {{template "sidebar"}}
+    </div>
+    {{template "content"}}
+    <footer>
+      {{template "footer"}}
+    </footer>
+  </body>
+</html>
+{{end}}
+
+{{define "sidebar"}}{{end}}
